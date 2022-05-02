@@ -155,7 +155,7 @@
                             <!-- Mandatory -->
                             <!-- comma separated list of package names to scan for glue code -->
                             <glue>
-                                <package>com.tests.stepdefinitions</package>
+                                <package>tests.stepdefinitions</package>
                             </glue>
 
                             <!-- These are the default values -->
@@ -166,14 +166,14 @@
                             <!-- Directory where the cucumber report files shall be written -->
                             <cucumberOutputDir>target/cucumber-parallel</cucumberOutputDir>
                             <!-- comma separated list of output formats -->
-                            <format>json</format>
+                            <format>html</format>
                             <!-- CucumberOptions.strict property -->
                             <strict>true</strict>
                             <!-- CucumberOptions.monochrome property -->
                             <monochrome>true</monochrome>
                             <!-- The tags to run, maps to CucumberOptions.tags property -->
                             <tags>
-                                <tag>@Api</tag>
+                                <tag>@findJobs</tag>
                             </tags>
                             <!-- If set to true, only feature files containing the required tags
                                     shall be generated. -->

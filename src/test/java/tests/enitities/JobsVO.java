@@ -8,7 +8,7 @@ public class JobsVO {
     private String skill;
     private String description;
     private String type;
-    private String Contact;
+    private String contact;
 
     public JobsVO(long jobId, String company, String location, String experience,String skill, String description, String type, String contact) {
         this.jobId = jobId;
@@ -18,7 +18,7 @@ public class JobsVO {
         this.skill = skill;
         this.description = description;
         this.type = type;
-        Contact = contact;
+        this.contact = contact;
     }
 
     public long getJobId() {
@@ -77,11 +77,11 @@ public class JobsVO {
     }
 
     public String getContact() {
-        return Contact;
+        return contact;
     }
 
     public void setContact(String contact) {
-        Contact = contact;
+        contact = contact;
     }
 
     @Override
@@ -94,7 +94,7 @@ public class JobsVO {
                 ", description='" + description + '\'' +
                 ", skill='" + skill + '\'' +
                 ", type='" + type + '\'' +
-                ", Contact='" + Contact + '\'' +
+                ", Contact='" + contact + '\'' +
                 '}';
     }
 
